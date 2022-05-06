@@ -1,3 +1,11 @@
+An exercise, in which I practiced:
+- using React Components, 
+- adding re-usable components, 
+- managing the user input state, 
+- adding a list component, 
+- managing a list of users via 'state', 
+- adding an error modal component.
+
 I did this exercise as part of my studies with React - The Complete Guide (incl Hooks, React Router, Redux) by Maximillian Schwarzmuller
 https://www.udemy.com/course/react-the-complete-guide-incl-redux/
 
