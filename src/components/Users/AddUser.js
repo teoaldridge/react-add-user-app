@@ -12,7 +12,7 @@ const AddUser = props => {
 
     const addUserHandler = (event) => {
         event.preventDefault();
-        if(enteredUserName.trim().length === 0 || enteredAge.trim().length === 0) {
+        if (enteredUserName.trim().length === 0 || enteredAge.trim().length === 0) {
             setError({
                 title: 'Invalid input',
                 message: 'Please enter a valid name and age (non-empty values).'
@@ -47,30 +47,30 @@ const AddUser = props => {
 
     return (
         <div>
-            {error && <ErrorModal title={error.title} message={error.message} onConfirm={errorHandler}/>}
-            
+            {error && <ErrorModal title={error.title} message={error.message} onConfirm={errorHandler} />}
+
             <Card className={classes.input}>
                 <form onSubmit={addUserHandler}>
                     <label htmlFor='username'>Username</label>
-                    <input 
-                        id='username' 
-                        type='text' 
-                        value={enteredUserName} 
-                        onChange={userNameChangeHandler} 
+                    <input
+                        id='username'
+                        type='text'
+                        value={enteredUserName}
+                        onChange={userNameChangeHandler}
                     />
                     <label htmlFor='age'>Age (Years)</label>
-                    <input 
-                        id='age' 
-                        type='number' 
-                        value={enteredAge} 
+                    <input
+                        id='age'
+                        type='number'
+                        value={enteredAge}
                         onChange={ageChangeHandler}
                     />
                     <Button type='submit'>Add User</Button>
                 </form>
-            </Card>     
+            </Card>
         </div>
     );
 };
 
-export default AddUser; 
+export default AddUser;
 
