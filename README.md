@@ -1,4 +1,16 @@
-An exercise, in which I practiced using Jest and React Testing Library to test a simple React app.
+In this exercise I practiced:
+
+- using React Components,
+- adding re-usable components,
+- managing the user input state,
+- adding a list component,
+- managing a list of users via 'state',
+- adding an error modal component.
+
+I also practiced Testing this app with Jest and React Testing Library
+
+I did this exercise as part of my studies with React - The Complete Guide (incl Hooks, React Router, Redux) by Maximillian Schwarzmuller
+https://www.udemy.com/course/react-the-complete-guide-incl-redux/
 
 To run locally:
 
@@ -9,4 +21,4 @@ To run locally:
 
 To run the tests:
 
-- In terminal type 'npm run test'
+- In Terminal run 'npm run test'
